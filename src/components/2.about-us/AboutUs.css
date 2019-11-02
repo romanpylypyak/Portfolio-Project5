@@ -1,0 +1,83 @@
+    .about h1 {
+        padding-top: 100px;
+    }
+    
+    .about i {
+        margin-top: 20px;
+    }
+    
+    .team img {
+        width: 172.5px;
+        border-radius: 50%;
+    }
+    
+    .member {
+        background: #f9f9f9;
+        width: 210px;
+        text-align: center;
+        padding: 10px 10px 30px 10px;
+    }
+    
+    .team {
+        display: grid;
+        grid-template-columns: repeat(4, 210px);
+        justify-content: space-between;
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+    /**********MEDIA************/
+    
+    @media (max-width:985px) {
+        .team {
+            grid-template-columns: repeat(4, 160px);
+            grid-gap: 30px;
+            justify-content: center;
+        }
+        .team .member {
+            width: 160px;
+        }
+        .team img {
+            width: 80%;
+        }
+        .team .member-jack h5 {
+            padding: 0 10px;
+        }
+    }
+    
+    @media (max-width:748px) {
+        /* .team {
+            display: grid;
+            grid-template-columns: repeat(2, 310px);
+            grid-template-rows: repeat(2, 360px);
+            justify-content: center;
+            grid-gap: 20px 40px;
+        } */
+        .team {
+            display: grid;
+            grid-template-columns: repeat(2, 45%);
+            grid-template-rows: repeat(2, 52%);
+            justify-content: center;
+            gap: 25px;
+        }
+        .team .member {
+            width: 43vw;
+            padding: 10px 15px 30px 15px;
+        }
+        .team img {
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+        }
+    }
+    
+    @media(max-width:458px) {
+        .team .member-maura h5 {
+            padding: 0 10px;
+        }
+    }
+    
+    @media(max-width:438px) {
+        .team .member-jack h5 {
+            padding: 0 20px;
+        }
+    }

@@ -1,0 +1,39 @@
+.our-services {
+    background: #f8f8f8;
+}
+
+.our-services h1 {
+    padding-top: 90px;
+}
+
+.our-services i {
+    margin-top: 20px;
+}
+
+.services h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.services img {
+    margin-bottom: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-template-rows: 95%;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 110px;
+}
+
+@media(max-width:522px) {
+    .services {
+        grid-template-columns: 100%;
+        grid-template-rows: none;
+        justify-content: center;
+    }
+}

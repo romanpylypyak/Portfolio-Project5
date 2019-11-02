@@ -1,0 +1,244 @@
+.in-touch h1 {
+    padding-top: 110px;
+}
+
+.in-touch i {
+    margin-top: 20px;
+}
+
+option.select-placeholder {
+    display: none;
+}
+
+.form {
+    background-color: #f9f9f9;
+    width: 750px;
+    height: 305px;
+    padding: 20px;
+}
+
+.form-inputs {
+    width: 345px;
+    line-height: 25px;
+    display: block;
+}
+
+.form-inputs p {
+    margin-bottom: 5px;
+}
+
+.form-inputs input {
+    margin-bottom: 10px;
+    width: 340px;
+}
+
+.form-inputs input,
+.textarea textarea,
+.form-inputs select {
+    border: 0;
+}
+
+.email i {
+    padding: 0.3rem;
+    border: 1px solid #fff;
+    background: #fff;
+    margin-right: 2px;
+}
+
+.email input[type="email"] {
+    width: 311px;
+}
+
+.form-inputs select {
+    height: 34px;
+    width: 340px;
+}
+
+.textarea {
+    width: 340px;
+    margin-left: -32px;
+    display: block;
+    float: right;
+    margin-top: -200px;
+}
+
+.textarea p {
+    margin-bottom: 25px;
+}
+
+.textarea textarea {
+    width: 340px;
+    height: 194px;
+    margin-top: -18px;
+}
+
+.textarea button {
+    float: right;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    background-color: #67b0d1;
+    border-color: #67b0d1;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.contacts {
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    display: block;
+    width: 360px;
+    float: right;
+    margin-top: -310px;
+    margin-left: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.contact p:nth-of-type(3n+1) {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.contact p:nth-of-type(5) {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.contact p:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+.contact p:nth-of-type(3) {
+    margin-bottom: 0;
+}
+
+.contact h6 {
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.contact a:hover{
+    color: #000;
+}
+
+.company-social {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.company-social li {
+    width: 40px;
+    height: 40px;
+}
+
+.company-social li a {
+    color: #fff;
+    vertical-align: -webkit-baseline-middle;
+    padding: 13px
+}
+
+.company-social .social-facebook {
+    background-color: #3873ae;
+}
+
+.company-social .social-twitter {
+    background-color: #62c6f8;
+}
+
+.company-social .social-dribble {
+    background-color: #d74980;
+}
+
+.company-social .social-google {
+    background-color: #000;
+}
+
+
+/*****************MEDIA*********************/
+
+@media(max-width: 1200px) {
+    .contact {
+        display: block;
+        width: 560px;
+        float: none;
+        margin-top: 60px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 793px) {
+    .form {
+        width: 100%;
+        height: 520px;
+    }
+    .contact,
+    .textarea textarea,
+    .textarea,
+    .form-inputs select,
+    .form-inputs input,
+    .form-inputs {
+        width: 100%;
+    }
+    .textarea {
+        margin-left: 0;
+        float: none;
+        margin-top: 0;
+    }
+    .email-intro {
+        display: table;
+        /* position: relative; */
+        /* border-collapse: separate; */
+        width: 100%;
+    }
+    .email i {
+        /* padding: 0.3rem; */
+        border: 1px solid #fff;
+        background: #fff;
+        margin-right: 2px;
+        /* display: inline-block; */
+        display: table-cell;
+        width: 20px;
+        /* margin-top: -34px; */
+        /* height: 61px; */
+        vertical-align: bottom;
+        /* margin-left: 31px; */
+        /* padding-left: 4px; */
+        padding: 0 5px;
+        border-inline-end: 2px solid #f9f9f9;
+        line-height: 23px;
+    }
+    .email input[type="email"] {
+        /* width: 311px; */
+        float: left;
+        width: 100%;
+        margin-bottom: 0;
+        display: table-cell;
+        /* padding: 0 36px; */
+        /* padding-left: 28px; */
+    }
+}
